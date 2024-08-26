@@ -1,4 +1,15 @@
 body {
-    background-color: #d7d7d7;
+    background-color:white;
     color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#header-nav {
+    background-color:darkgray;
+}
+#logo {
+    background: url(../images/asa.png) center no-repeat;
+    background-size: contain;
+    width: 150px;
+    height: 150px;
 }
