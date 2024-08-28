@@ -10,6 +10,15 @@ body {
 #logo {
     background: url(../images/asa.png) center no-repeat;
     background-size: contain;
-    width: 150px;
-    height: 150px;
+    width: 75px;
+    height: 75px;
+}
+div.navbar-brand a h1{ /* logoname */
+    font-size: 1.5em;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.navbar-brand a,.navbar-brand a:hover, .navbar-brand a:focus { /*underline remove*/
+    text-decoration: none;
 }
