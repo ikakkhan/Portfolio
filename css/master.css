@@ -1,12 +1,15 @@
 body {
-    background-color:white;
-    color: black;
-    /* font-family: sans-serif; */
-    height: 2000px;
+  background-color:white;
+  color: black;
+ 	/* font-family: sans-serif; */
+  height: 2000px;
 }
-.navbar .navbar-brand {
- 
+#header-nav {
+	/* background-color: rgb(114,137,218); */
 }
-.navbar .navbar-toggler {
-
+.navbar .navbar-brand img {
+	border: 1.5px solid black;
+}
+#header-nav .navbar-toggler {
+	border: 1.5px;
 }
