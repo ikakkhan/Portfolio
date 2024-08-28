@@ -8,6 +8,19 @@ body {
 	/* background-color: rgb(114,137,218); */
 }
 .navbar .navbar-brand img {
-	border: 1.5px solid black;
+	/* border: 1.5px solid black; */
 }
 
+.c2x2 {
+	height: 111px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	.c2x2 {
+		height: 95.7px;
+	}
+}
+@media (min-width: 1200px) {
+	.c2x2 {
+		height: 98px;
+	}
+}
