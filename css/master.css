@@ -22,7 +22,6 @@ body {
     background-color: #e9ecef; /* Default background color (Bootstrap's bg-body-tertiary) */
     transition: background-color 0.3s; /* Smooth transition */
 }
-
 .bg-hover-primary:hover {
     background-color: #e3e5e7 !important; /* Background color on hover */
 }
