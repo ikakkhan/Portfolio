@@ -2,7 +2,6 @@ body {
   background-color:rgba(255, 255, 255, 0.877);
   color: black;
  	/* font-family: sans-serif; */
-  height: 2000px;
 }
 
 .c2x2 {
@@ -12,18 +11,10 @@ body {
 	.c2x2 {
 		height: 113px;
 	}
-	.logo {
-		max-width: 40%;
-		height: auto;
-	}
 }
 @media (min-width: 1200px) {
 	.c2x2 {
 		height: 98px;
-	}
-	.logo {
-		max-width: 30%;
-		height: auto;
 	}
 }
 .bg-hover-primary {
@@ -68,6 +59,35 @@ body {
 @media (min-width: 1200px) {
 	.logo {
 		max-width: 30%;
+		height: auto;
+	}
+}
+
+.school {
+	max-width: 70%;
+	height: auto;
+}
+@media (min-width: 400px) {
+	.school {
+		max-width: 60%;
+		height: auto;
+	}
+}
+@media (min-width: 576px) {
+	.school {
+		max-width: 100%;
+		height: auto;
+	}
+}
+@media (min-width: 768px) {
+	.school {
+		max-width: 80%;
+		height: auto;
+	}
+}
+@media (min-width: 1400px) {
+	.school {
+		max-width: 70%;
 		height: auto;
 	}
 }
