@@ -12,10 +12,18 @@ body {
 	.c2x2 {
 		height: 113px;
 	}
+	.logo {
+		max-width: 40%;
+		height: auto;
+	}
 }
 @media (min-width: 1200px) {
 	.c2x2 {
 		height: 98px;
+	}
+	.logo {
+		max-width: 30%;
+		height: auto;
 	}
 }
 .bg-hover-primary {
@@ -34,7 +42,32 @@ body {
 		opacity: 1;
 	}
 }
+
 .logo {
 	max-width: 50%;
 	height: auto;
+}
+@media (min-width: 0px) and (max-width: 400px) {
+	.logo {
+		max-width: 40%;
+		height: auto;
+	}
+}
+@media (min-width: 401px) and (max-width: 575px) {
+	.logo {
+		max-width: 30%;
+		height: auto;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	.logo {
+		max-width: 40%;
+		height: auto;
+	}
+}
+@media (min-width: 1200px) {
+	.logo {
+		max-width: 30%;
+		height: auto;
+	}
 }
