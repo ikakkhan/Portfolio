@@ -34,7 +34,7 @@ body {
 	}
 }
 .bg-hover-primary {
-    background-color: #e9ecef; /* Default background color (Bootstrap's bg-body-tertiary) */
+    background-color: #ffffff; /* Default background color (Bootstrap's bg-body-tertiary) */
     transition: background-color 0.3s; /* Smooth transition */
 }
 .bg-hover-primary:hover {
@@ -112,4 +112,28 @@ body {
 		max-width: 70%;
 		height: auto;
 	}
+}
+
+.parent-diva {
+	position: relative;
+	width: 100%; /* Ensure the parent takes full width */
+}
+.hidden-diva {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
+}
+.parent-diva:hover .hidden-diva {
+	opacity: 1;
+}
+.bg-hover-ach {
+	background-color: #ffffff; /* Default background color (Bootstrap's bg-body-tertiary) */
+	transition: background-color 0.3s; /* Smooth transition */
+}
+.bg-hover-ach:hover {
+	background-color: rgba(227, 229, 231, 100) !important; /* Background color on hover */
 }
