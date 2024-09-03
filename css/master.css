@@ -24,7 +24,7 @@ body {
 .bg-hover-primary:hover {
     background-color: rgba(227, 229, 231, 100) !important; /* Background color on hover */
 }
-@media (min-width: 576px) {
+@media (min-width: 1024px) {
 	.hidden-div {
 		opacity: 0;
 		transition: opacity 0.3s ease-in-out;
