@@ -4,6 +4,22 @@ body {
  	/* font-family: sans-serif; */
 }
 
+@media (max-width: 382px) {
+	#nav-text {
+		font-size: 1rem;
+	}
+}
+#nav-img {
+	width: 75px;
+	height: 75px;
+}
+@media (max-width: 382px) {
+	#nav-img {
+		width: 60px;
+		height: 60px;
+	}
+}
+
 .c2x2 {
 	height: 111px;
 }
